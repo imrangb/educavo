@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding:  0 15px;
+}
+
+.container:before, .container:after, .clearfix:before, .clearfix:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.floatleft{
+    float:left;
+}
+.floatright{
+    float:right;
+}
+
+.col-50{
+    width: 50%;
+    float:left;
+}
+
+.col-33{
+    width: 33.33%;
+    float:left;
+}
+
+
+.col-66{
+    width: 66.33%;
+    float:left;
+}
+
+.col-25{
+    width: 25%;
+    float:left;
+}
+
+.col-20{
+    width: 20%;
+    float:left;
+}
+
+
+.col-80{
+    width: 80%;
+    float:left;
+}
+
+
+.col-60{
+    width: 60%;
+    float:left;
+}
+
+
+.col-40{
+    width: 40%;
+    float:left;
+}
+
+.section-top-padding{
+    padding-top: 100px;
+}
+
+.section-bottom-padding{
+    padding-bottom: 100px;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.section-title h3{
+    text-transform: uppercase;
+    color:#FF5421;
+}
+.section-title h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color:#101010;
+}
+/* primary css  */
+
+
+/* logo-menu-area css */
+
+.logo-menu-area{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 50px;
+}
+
+.logo img {
+    width: 130px;
+}
+.main-menu ul, .searh-login ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-menu ul li, .searh-login ul li {
+    display: inline;
+}
+
+.main-menu li a, .searh-login ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 700;
+}
+.main-menu li a:hover, .searh-login ul li a:hover{
+    color:#FF5623;
+}
+.searh-login ul li a:hover, ul.search-login li a.site-login:hover, ul.search-login li a.site-user:hover{
+    color:#FF5623;
+    border: 1px solid #FF5623;
+}
+ul.search-login li a.site-login, ul.search-login li a.site-user {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+
+/* logo-menu-area css end*/
+
+.home-area{
+    background-image: url(../img/slider-new-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 730px;
+    position: relative;
+}
+
+
+.home-content {
+    text-align: center;
+    padding: 200px 0px 0px 0px;
+}
+
+
+.home-content h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FF5421;
+}
+
+.home-content h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color:#fff;
+}
+
+.home-btn a {
+    display: inline-block;
+    padding: 20px 50px;
+    background: #FF5624;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+    transition:.5s;
+}
+
+.home-btn a:hover {
+    background: #1C253C;
+    transition:.5s;
+}
+
+.fetured-items{
+    margin-left: -30px;
+    position: absolute;
+    width: 100%;
+    bottom: 80px;
+}
+.single-fearture{
+    margin-left: 15px;
+    background: #171F32;
+    border-radius: 10px;
+    color:#fff;
+    padding: 20px;
+    transition:.5s;
+}
+.single-fearture:hover{
+    margin-top: -10px;
+    transition:.5s;
+}
+
+.single-fearture img {
+    float: left;
+    font-size: 36px;
+    width: 50px;
+    color:#FF5421;
+    margin-top: 0px;
+}
+
+.single-fearture h3 {
+    margin-left: 60px;
+}
+
+..single-fearture h3 span{
+    display: black;
+}
+.single-fearture h3 span {
+    display: block;
+    font-size: 18px;
+}
+
+.single-fearture h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+/* home-area css end */
+
+/* our-categories-area css */
+
+.our-categories-area{}
+
+
+.course-details {
+    margin-left: -30px;
+}
+
+.single-course {
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    transition:.5s;
+}
+
+.single-course:hover {
+    margin-top: -15px;
+    transition:.5s;
+}
+.single-course:before{
+    position: absolute;
+    content:"";
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    background: #000;
+    opacity: .2;
+
+
+}
+
+.course-bg-1{
+    background-image: url(../img/cat_01.jpg);
+} 
+
+.course-bg-2{
+    background-image: url(../img/cat_01.jpg);
+} 
+
+.course-bg-3{
+    background-image: url(../img/cat_03.jpg);
+} 
+
+.course-bg-4{
+    background-image: url(../img/cat_04.jpg);
+} 
+
+.course-bg-5{
+    background-image: url(../img/cat_5.jpg);
+} 
+
+.course-bg-6{
+    background-image: url(../img/cat_6.jpg);
+} 
+
+.course-bg{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    border-radius:10px;
+    
+}
+
+.course-content {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.course-content img {
+    width: 60px;
+    float: left;
+}
+
+.course-content h3 {
+    margin-left: 80px;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.course-content img {
+    width: 60px;
+    float: left;
+}
+
+.course-content h3 {
+    margin-left: 80px;
+    text-transform: capitalize;
+    font-size: 24px;
+    color:#fff;
+}
+
+.course-content h3 span {
+    display: block;
+    font-size: 18px;
+}
+
+
